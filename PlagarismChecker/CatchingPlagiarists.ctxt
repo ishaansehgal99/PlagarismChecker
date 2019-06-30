@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ readDirectories()
+comment0.text=Reads\ Directories\n
+comment1.params=directory
+comment1.target=void\ readFilesInDirectories(java.lang.String)
+comment1.text=Reads\ files\ in\ from\ directory\ represented\ as\ a\ string\n
+comment2.params=fileName
+comment2.target=void\ readFiles(java.lang.String)
+comment2.text=Stores\ the\ entire\ string\ as\ a\ phrase\ using\ BufferedReader\ and\ then\ncalls\ processingPhrases
+comment3.params=phrase
+comment3.target=void\ processingPhrases(java.lang.String)
+comment3.text=The\ entire\ file\ is\ represented\ as\ the\ string\ "phrase".\ Here\ using\ substrings\ and\ indexOf\n\ String\ is\ parsed\ into\ N-word\ phrases\ stored\ in\ a\ HashSet\ and\ then\ HashSet\ is\ put\ into\ a\ \n\ Queue\ (LinkedList)\ of\ HashSets.\n
+comment4.params=m1\ m2
+comment4.target=int\ duplicateValueCountBetweenFiles(java.util.HashSet,\ java.util.HashSet)
+comment4.text=Finds\ number\ of\ duplicate\ values\ among\ two\ HashSets.\ \n
+comment5.params=
+comment5.target=void\ comparingMultipleFiles()
+comment5.text=Iterates\ through\ all\ files\ in\ data\ set,\ Calling\ the\ \n\ duplicateValueCountBetweenFiles(HashSet\ m1,\ HashSet\ m2)\ multiple\ times.\n\ If\ value\ returned\ is\ greater\ than\ minNumOfDuplications\ set\ by\ user\ count\ and\n\ the\ associated\ files\ are\ stored\ in\ a\ HashMap.\ \n
+comment6.params=h
+comment6.target=java.lang.String\ sortAndPrint(java.util.HashMap)
+comment6.text=Prints\ out\ the\ results\:\ what\ is\ stored\ in\ the\ HashMap.\ The\ HashMap\ keys\ are\ the\n\ count\ these\ are\ ordered\ in\ an\ arraylist.\ Contents\ of\ Arraylist\ and\ associated\ files\n\ are\ printed.\ \n
+numComments=7
